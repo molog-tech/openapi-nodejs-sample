@@ -45,15 +45,23 @@ This is NodeJS sample for Molog WMS Open API
 
 # API Support
 
+| Advance Return | Status             |
+| -------------- | ------------------ |
+| Create AR Job  | :heavy_check_mark: |
+
+---
+
 | Advance Shipment Notice | Status             |
 | ----------------------- | ------------------ |
 | Create ASN Job          | :heavy_check_mark: |
 
 ---
 
-| Confirm Packed               | Status             |
-| ---------------------------- | ------------------ |
-| Select Confirm Packed by Job | :heavy_check_mark: |
+| Base                                  | Status             |
+| ------------------------------------- | ------------------ |
+| Create or Update value Base Customize | :heavy_check_mark: |
+| Update Base Customize                 | :heavy_check_mark: |
+| Rename Base Customize                 | :heavy_check_mark: |
 
 ---
 
@@ -66,13 +74,6 @@ This is NodeJS sample for Molog WMS Open API
 | Confirm Shipped               | Status             |
 | ----------------------------- | ------------------ |
 | Select Confirm Shipped by Job | :heavy_check_mark: |
-
----
-
-| Crosscheck            | Status             |
-| --------------------- | ------------------ |
-| Select summary of ASN | :heavy_check_mark: |
-| Select summary of DSO | :heavy_check_mark: |
 
 ---
 
@@ -91,21 +92,27 @@ This is NodeJS sample for Molog WMS Open API
 
 ---
 
+| Goods Receive Return                | Status             |
+| ----------------------------------- | ------------------ |
+| Select Goods Receive Return ฺby Job | :heavy_check_mark: |
+
+---
+
 | Inventory             | Status             |
 | --------------------- | ------------------ |
 | Select inventory list | :heavy_check_mark: |
 
 ---
 
-| Partner                  | Status             |
-| ------------------------ | ------------------ |
-| Create or Update Partner | :heavy_check_mark: |
+| Inventory Movement               | Status             |
+| -------------------------------- | ------------------ |
+| Select inventory movement by Job | :heavy_check_mark: |
 
 ---
 
-| Pre Shipment Order | Status             |
-| ------------------ | ------------------ |
-| Create PSO Job     | :heavy_check_mark: |
+| Partner                  | Status             |
+| ------------------------ | ------------------ |
+| Create or Update Partner | :heavy_check_mark: |
 
 ---
 
